@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(https://e7.pngegg.com/pngimages/593/605/png-clipart-cartoon-cloud-animation-clouds-cartoon-blue-white.png);
+}
+
+#block{
+    width: 50px;
+    height: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH4DzoH9QoyhU6lZ7817ZOAahd8SdQnfDPlBR7P6d0nyBH8QYhUX5pnGgZeIK4Uu06Jw&usqp=CAU);
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left: 400px}
+    100%{left: -50px}
+}
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: rgba(0,180,255,255);
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    content: url(https://pa1.narvii.com/6569/ce6b64c661122bd27abd942f1a0dec64ea71752f_hq.gif);
+    position:absolute;
+    top: 100px;
+    border-radius: 50%;
+}
