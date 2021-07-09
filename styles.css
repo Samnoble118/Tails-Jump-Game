@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 #game{
@@ -40,4 +41,23 @@
     position:absolute;
     top: 100px;
     border-radius: 50%;
+    background-color: rgba(0,180,255,255);
 }
+
+.tailAdventure{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 20px;
+    color: rgba(255,181,25,255);
+}
+
+.tailsImg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tailsImg img{
+    width: 100px;
+
+}
+
