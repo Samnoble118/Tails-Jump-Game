@@ -32,7 +32,7 @@ function jump(){
 
     }
     character.style.top = (characterTop-5)+"px";
-    if(jumpCount>20){
+    if(jumpCount>15){
         clearInterval(jumpInterval);
         jumping=0;
         jumpCount=0;
