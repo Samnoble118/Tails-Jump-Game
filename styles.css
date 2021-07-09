@@ -44,6 +44,24 @@
     background-color: rgba(0,180,255,255);
 }
 
+#gameOver{
+    background: black;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+#gameOver button{
+    border: none;
+    color: red;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
 .tailAdventure{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
